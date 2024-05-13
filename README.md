@@ -2,6 +2,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Create .env and add this code.
+
+DATABASE_URL=mongodb://127.0.0.1:27017/authenticate
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=roitai865454sdf$
+
+and then 
+```bash
+npm install
+```
 First, run the development server:
 
 ```bash
